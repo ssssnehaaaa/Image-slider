@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(180, 168, 133, 0.973);
+}
+
+.container{
+    margin:100px 0 0 100px;
+    display: flex;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+    width:70%;
+    height:450px;
+    gap:10px;
+}
+
+.container img{
+    width:10%;
+    height:100%;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 242, 217);
+
+
+}
+
+.container img:hover{
+    width: 25%;
+}
